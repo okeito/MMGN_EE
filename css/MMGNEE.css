@@ -2,8 +2,10 @@
     -------------------------------------------------- */
     /* Padding below the footer and lighter body text */
 
+    /*  bright-green: 7ab247  */
+
     body {
-      padding-bottom: 40px;
+      padding-bottom: 0px;
       color: #5a5a5a;
     }
 
@@ -88,6 +90,16 @@
       height: 500px;
     }
 
+    #heroText{
+      position: absolute;
+      z-index: 9;
+       margin: 200px 0 0 75px;
+    }
+
+    #heroText .lead{
+      color: #fff;
+    }
+
     .carousel-caption {
       background-color: transparent;
       position: static;
@@ -122,6 +134,7 @@
     .marketing .span4 p {
       margin-left: 10px;
       margin-right: 10px;
+      font-size: 6px;
     }
 
 
@@ -152,9 +165,13 @@
     /* Thin out the marketing headings */
     .featurette-heading {
       font-size: 50px;
-      font-weight: 300;
+      font-weight: 500;
       line-height: 1;
       letter-spacing: -1px;
+      color: #7ab247;
+    }
+    .featurette p{
+      font-size: ;
     }
 
 
@@ -280,7 +297,10 @@
     margin-top: 30px;
   }
   .green{
-    color: #507d29;
+    color: #7ab247;
+  }
+   .green: hover {
+    color: #fff;
   }
 
   #clients a img{
@@ -320,27 +340,74 @@
      -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
           box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
   }
+
+  .green-cell div{
+    padding-left: 30px;
+  }
+  .grey {
+    color: #363636;
+  }
+  .greeny{
+    color: #7ab247;
+  }
   .green-cell {
   min-height: 20px;
   padding: 20px;
-
   margin-bottom: 20px;
-  background-color: #507d29;
+  background-color: #7ab247;
+  }
+  .green-cell img{
+    margin: 0 10px 10px 60px;
   }
   .green-cell p {
     color: #fff;
+    font-weight: lighter;
+    margin: 10px;
   }
   .green-cell h3 {
     color: #fff;
   }
-
-   #contact p {
-    color: #fff;
+#contact{
+  margin-top: 50px;
+}
+ #contact p {
+    color:;
     margin-bottom: 20px;
-    font-size: 21px;
-    font-weight: 200;
-    line-height: 30px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 200px;
+    line-height: 40px;
   }
-  div footer{
+#clients p {
+  margin: 0px 0 20px; 0;
+  font-size: 30px;
+}
+.well p {
 
+  margin: 60px 0 0 20px;
+}
+.well span {
+    margin-top: 10px;
+}
+form {
+  margin-top: 20px;
+
+}
+  footer{
+  padding: 20px 20px 20px 20px;
+  width: 100%;
+  position:;
+  bottom: 0px;
+  margin-bottom: -50px;
+  background-color: #363636;
+ 
+  }
+  #footer p{
+     font-color: #fff;
+  }
+
+
+  footer a:hover { 
+    color: #fff;
+    text-decoration: none;
   }
